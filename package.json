@@ -1,6 +1,6 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "@hospital-sdk_jcc0xp/root",
+  "private": false,
   "scripts": {
     "publish": "lerna run tsc && lerna publish"
   },
@@ -8,5 +8,19 @@
     "@types/node": "^12.7.5",
     "lerna": "^3.16.4",
     "typescript": "^3.6.3"
-  }
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julioprogrammer/lerna_testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julioprogrammer/lerna_testing/issues"
+  },
+  "homepage": "https://github.com/julioprogrammer/lerna_testing#readme",
+  "description": ""
 }
